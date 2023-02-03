@@ -253,6 +253,8 @@ main {
 .assignmentnote {
     text-align: center;
     padding: 2rem;
+    background-color: var(--color1);
+    color: var(--color2);
 }
 
 .assignmentnote span{
@@ -260,8 +262,16 @@ main {
 }
 
 .assignmentnote a{
-    color: var(--color1);
+    color: var(--color2);
     font-weight: bold;
+}
+
+.submitassignment {
+    background-color: var(--color1);
+    color: var(--color2);
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.4rem;
 }
 
 @media screen and (max-width: 300px) {
